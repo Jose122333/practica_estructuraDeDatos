@@ -1,0 +1,117 @@
+V "GNAT Lib v2015"
+A -mmacosx-version-min=10.10.5
+A -gnatA
+A -gnatc
+A -mtune=core2
+A -fPIC
+P NO ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U pparaula%b		pparaula.adb		88135e1f OO PK IL
+
+U pparaula%s		pparaula.ads		f4a523f0 EE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.wide_wide_characters%s  a-zchara.ads	a-zchara.ali
+W ada.wide_wide_characters.handling%s  a-zchhan.adb  a-zchhan.ali
+
+D ada.ads		20150506105328 3ffc8e18 ada%s
+D a-ioexce.ads		20150506105327 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20150506105329 119b8fb3 ada.streams%s
+D a-textio.ads		20150506105332 386df5d4 ada.text_io%s
+D a-zchara.ads		20150506105332 21c8f2b2 ada.wide_wide_characters%s
+D a-zchhan.ads		20150506105330 28d85bc4 ada.wide_wide_characters.handling%s
+D interfac.ads		20150506105327 6033a23f interfaces%s
+D i-cstrea.ads		20150506105327 e53d8b8e interfaces.c_streams%s
+D pparaula.ads		20160229120938 e4108de0 pparaula%s
+D pparaula.adb		20160301110427 6c03d3ff pparaula%b
+D system.ads		20150506105331 100301f7 system%s
+D s-crtl.ads		20150506105326 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20150506105333 078245e4 system.file_control_block%s
+D s-parame.ads		20150506105331 7e2a0d7f system.parameters%s
+D s-wchcon.ads		20150506105330 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 9|2r6 2r19 3r5 3r18
+X 4 a-textio.ads
+49K13*Text_IO 471e16 9|2w10 3r9
+52P9*File_Type 9|27r29 83r16 10|21r29
+53n23*In_File{53E9} 10|113r35
+92U14*Open 10|113s7
+94e7 Mode{53E9} 10|113r27
+95a7 Name{string} 10|113r44
+98U14*Close 10|121s10
+205U14*Get 10|131s10 135s13
+206U14*Get 10|142s10 146s13
+207U14*Put 10|25s10
+208U14*Put 10|14s10
+263U14*Put_Line 10|141s10
+X 5 a-zchara.ads
+16K13*Wide_Wide_Characters 18e29 9|2r23 3r22
+X 6 a-zchhan.ads
+16K34*Handling 132e38 9|2w44 3r43
+X 9 pparaula.ads
+10K9*pparaula 68E9 87l5 87e13 10|3b14 164l5 164t13
+16i4*MAXIM{integer} 18r44
+18I12*tllargaria{integer} 19r28 19r48 32r47 73r19 10|52r47
+19I12*rang_lletres{18I12} 37r52 68r33 10|67r52
+22R9*tparaula 25r25 27r47 29r28 32r30 34r26 37r29 39r28 47r33 47r55 58r57
+. 71c9 74e14 10|10r25 21r47 31r28 52r30 59r26 67r29 74r28 89r33 89r55 126r57
+25U14*put 25>18 10|10b14 18l8 18t11
+25r18 p{22R9} 10|10b18 13r18 14r14
+27U14*put 27=18 27>40 10|21b14 28l8 28t11
+27p18 f{4|52P9} 10|21b18 25r14
+27r40 p{22R9} 10|21b40 24r18 25r16
+29V14*"="{boolean} 29>18 29>21 10|31b14 48l9 48t11
+29r18 a{22R9} 10|31b18 35r10 36r21 37r16
+29r21 b{22R9} 10|31b21 35r24 37r31
+32V13*llargaria{18I12} 32>23 10|52b13 56l8 56t17
+32r23 p{22R9} 10|52b23 54r14
+34V13*buida{boolean} 34>19 10|59b13 63l11 63t16
+34r19 p{22R9} 10|59b19 62r14
+37V13*caracter{character} 37>22 37>39 10|67b13 71l8 71t16
+37r22 p{22R9} 10|67b22 70r14
+37i39 posicio{19I12} 10|67b39 70r24
+39V13*toString{string} 39>22 10|74b13 85l8 85t16
+39r22 p{22R9} 10|74b22 76r21 78r16 79r19
+47U14*copiar 47<21 47>43 10|89b14 96l8 96t14
+47r21 desti{22R9} 10|89b21 93m10
+47r43 origen{22R9} 10|89b43 92r30 93r43
+49R9*OrigenParaules 52r32 54r32 56r36 58r34 80c9 85e14 10|105r32 111r32 118r36
+. 126r34
+52U14*open 52<19 10|105b14 108l8 108t12
+52r19 origen{49R9} 10|105b19 107m7
+54U14*open 54<19 54>48 10|111b14 115l8 115t12
+54r19 origen{49R9} 10|111b19 113m12 113r12 114m7
+54a48 nom{string} 10|111b48 113r52
+56U14*close 56=20 10|118b14 123l8 123t13
+56r20 origen{49R9} 10|118b20 120r10 121m16 121r16
+58U14*get 58=18 58<50 10|126b14 152l8 152t11
+58r18 origen{49R9} 10|126b18 130r10 131r14 135r17
+58r50 p{22R9} 10|126b50 133m13 137m10 139m10 144m13 148m10 150m10
+68A9 taula_lletres(character)<integer> 72r17
+72a7*lletres{68A9} 10|14r16 25r18 37r18 37r33 70r16 78r18 79r21 93m16 93r50
+. 133m15 137m12 144m15 148m12
+73i7*llargaria{18I12} 10|13r20 24r20 35r12 35r26 36r23 54r16 62r16 76r23
+. 92r37 139m12 150m12
+81b7*defitxer{boolean} 10|107m14 114m14 120r17 130r17
+83p7*fitxer{4|52P9} 10|113m19 121m23 131r21 135r24
+84e7*lletra{character}
+X 10 pparaula.adb
+11i7 n{integer} 13r13 14r24 15m10 15r15
+22i7 n{integer} 24r13 25r26 26m10 26r15
+32b7 igual{boolean} 36r37 40m16 45m10 47r14
+33i7 n{integer} 36r16 37r26 37r41 42m13 42r18
+76a7 s{string} 79m10 79r15 83r11
+78i11 I{integer} 79r29
+90i4 longitudActual{integer} 92r13 93r24 93r58 94m10 94r26
+127i7 longitudActual{integer} 133r23 134m13 134r29 137r20 138m10 138r26 139r24
+. 144r23 145m13 145r29 148r20 149m10 149r26 150r24
+128e7 ActualCharacter{character} 131m28 132r16 132r42 133r42 135m31 137r39
+. 142m14 143r16 143r42 144r42 146m17 148r39
+

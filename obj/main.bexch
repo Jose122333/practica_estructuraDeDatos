@@ -1,0 +1,17 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/Users/Moni/Desktop/UIB/SEGUNDO/EstructuraDeDatos/Practicas/PrimeraImplementacion/practica1.gpr
+20160222204143
+[BOUND OBJECT FILES]
+/Users/Moni/Desktop/UIB/SEGUNDO/EstructuraDeDatos/Practicas/PrimeraImplementacion/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/Users/Moni/Desktop/UIB/SEGUNDO/EstructuraDeDatos/Practicas/PrimeraImplementacion/obj/
+-L/Users/Moni/Desktop/UIB/SEGUNDO/EstructuraDeDatos/Practicas/PrimeraImplementacion/obj/
+-L/users/moni/downloads/gnat-gpl-2015-x86_64-darwin-bin/lib/gcc/x86_64-apple-darwin13.4.0/4.9.3/adalib/
+-static
+/users/moni/downloads/gnat-gpl-2015-x86_64-darwin-bin/lib/gcc/x86_64-apple-darwin13.4.0/4.9.3/adalib/libgnat.a
